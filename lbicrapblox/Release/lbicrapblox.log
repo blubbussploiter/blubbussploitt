@@ -1,0 +1,10 @@
+﻿  customfuncs.cpp
+C:\Users\goope\OneDrive\Desktop\lbicrapblox\lbicrapblox\hooking.h(11,21): warning C4309: '=': truncation of constant value
+C:\Users\goope\OneDrive\Desktop\lbicrapblox\lbicrapblox\customfuncs.cpp(219,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  init.cpp
+  Generating code
+  3 of 7487 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    39 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  lbicrapblox.vcxproj -> C:\Users\goope\OneDrive\Desktop\lbicrapblox\Release\lbicrapblox.dll

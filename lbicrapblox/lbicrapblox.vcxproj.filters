@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\lua">
+      <UniqueIdentifier>{c354df56-7216-402c-883d-8759bab47442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{a7cc2ad3-2ca3-4bf2-ae04-ec281144e20a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils\n">
+      <UniqueIdentifier>{77d731db-2828-4467-9b77-17d48eefc3b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lbi">
+      <UniqueIdentifier>{f3189b87-7016-499d-81cd-0e63f0ddc34d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rbx">
+      <UniqueIdentifier>{7b776122-0d8d-48af-988e-246e4055de16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lbi\encoding">
+      <UniqueIdentifier>{3c735313-950a-4cd6-9a26-2498c34e0a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lbi">
+      <UniqueIdentifier>{73dbbd14-de06-4768-b7b7-b6b638688cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rbx">
+      <UniqueIdentifier>{178c358a-4b95-41f5-9c31-757a235a1ff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lbi\execution">
+      <UniqueIdentifier>{5bf41a29-bf2f-45e3-a367-35ef5ed4a8df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lbi\execution">
+      <UniqueIdentifier>{3dcd1c9d-aae3-488b-8d1c-3006885a2e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lbi\encoding">
+      <UniqueIdentifier>{f351384e-d075-4859-ac10-c6b695539f89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rbx\exploit">
+      <UniqueIdentifier>{5e9baa6f-fa9a-49cf-a1bf-d7341c259bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rbx\exploit">
+      <UniqueIdentifier>{7e0f0f0b-3142-4d1e-b1bb-0c3322c19101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lbi\datamodel">
+      <UniqueIdentifier>{35f7e7d7-1b09-4716-b337-912d99d94a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dep">
+      <UniqueIdentifier>{c5380012-ac03-47e0-a845-e82e737c83ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dep">
+      <UniqueIdentifier>{ec1bf939-1d5e-448b-8f2e-bbdeb0b79677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rbx\exploit\newcclosure">
+      <UniqueIdentifier>{33d1a758-1ea3-4195-bbb2-f09b05a89cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rbx\exploit\newcclosure">
+      <UniqueIdentifier>{5bde4abb-3a75-4268-994b-a5bcb2d8a8a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rbx\exploit\libs">
+      <UniqueIdentifier>{c9746421-2360-4c0a-859f-12258a077a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rbx\exploit\fixes">
+      <UniqueIdentifier>{66b40401-51cc-46fb-b451-46bdc9e74d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rbx\exploit\fixes\reflection">
+      <UniqueIdentifier>{c17861fe-ce30-4445-8705-4624b96531c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rbx\exploit\fixes\thread">
+      <UniqueIdentifier>{2919032f-76eb-48d4-8ef9-3a65a19a5340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rbx\exploit\fixes\cfunc">
+      <UniqueIdentifier>{91d42b05-8221-40df-a448-ee71b298f0af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bypasses">
+      <UniqueIdentifier>{c76415c0-5da1-43ae-9a04-5bcc825b2ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\help">
+      <UniqueIdentifier>{802455ee-e1b9-4fc2-9a69-ff8b0e2c56ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\security">
+      <UniqueIdentifier>{6dc8c7b5-a970-4a2c-a76a-3cf44afa71a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bypasses">
+      <UniqueIdentifier>{101e6dd5-f81a-4bb3-bb98-3126d28716e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bypasses\utils">
+      <UniqueIdentifier>{314274cb-72d4-4969-b2a1-29e89eb7fc5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rbx\exploit\getobjects">
+      <UniqueIdentifier>{119c2d93-94ff-4eb1-8623-4b1b6dc3ccfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rbx\exploit\getobjects">
+      <UniqueIdentifier>{f6b919dd-557a-486e-8657-87336a28fa4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\auth">
+      <UniqueIdentifier>{c7384662-b4f6-4c17-9ac2-8c10b22df222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\auth">
+      <UniqueIdentifier>{274b3b41-2600-47bb-9fb2-ea03426db4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hashing">
+      <UniqueIdentifier>{b2d07732-1403-47a4-8bc8-3521c3d0b5a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui">
+      <UniqueIdentifier>{43052cd6-b10c-4498-ad0d-f2b7233fc50b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{42ce7279-31d3-4b54-bdb4-90c9ed31f30a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui">
+      <UniqueIdentifier>{75f7c20f-c630-4a0b-a89e-89de2b7b15ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldo.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lparser.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lvm.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lgc.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lcode.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstrlib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\liolib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\llex.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\loadlib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldblib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lapi.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldebug.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lundump.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltablib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lbaselib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lauxlib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\loslib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstate.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltable.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lfunc.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldump.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\linit.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lmathlib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lmem.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lobject.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lopcodes.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstring.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltm.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lzio.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\print.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lz4\lz4.c">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="lz4\lz4hc.c">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="util\xxhash.c">
+      <Filter>Source Files\utils\n</Filter>
+    </ClCompile>
+    <ClCompile Include="output.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="serializer.cpp">
+      <Filter>Source Files\lbi</Filter>
+    </ClCompile>
+    <ClCompile Include="stateg.cpp">
+      <Filter>Source Files\rbx</Filter>
+    </ClCompile>
+    <ClCompile Include="execution.cpp">
+      <Filter>Source Files\lbi\execution</Filter>
+    </ClCompile>
+    <ClCompile Include="ckey.cpp">
+      <Filter>Source Files\lbi\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="rinstr.cpp">
+      <Filter>Source Files\lbi\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="customfuncs.cpp">
+      <Filter>Source Files\rbx\exploit</Filter>
+    </ClCompile>
+    <ClCompile Include="datamodelFuncs.cpp">
+      <Filter>Source Files\rbx\exploit</Filter>
+    </ClCompile>
+    <ClCompile Include="addresses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LUrlParser.cpp">
+      <Filter>Source Files\dep</Filter>
+    </ClCompile>
+    <ClCompile Include="newcclosure.cpp">
+      <Filter>Source Files\rbx\exploit\newcclosure</Filter>
+    </ClCompile>
+    <ClCompile Include="crypt.cpp">
+      <Filter>Source Files\rbx\exploit\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="bit.cpp">
+      <Filter>Source Files\rbx\exploit\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="singletons.cpp">
+      <Filter>Source Files\rbx\exploit</Filter>
+    </ClCompile>
+    <ClCompile Include="datamodel.cpp">
+      <Filter>Source Files\rbx\exploit\fixes\reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="identity.cpp">
+      <Filter>Source Files\rbx\exploit\fixes\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="cfunction.cpp">
+      <Filter>Source Files\rbx\exploit\fixes\cfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>Source Files\rbx\exploit\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="jhook.cpp">
+      <Filter>Source Files\bypasses\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="getobjects.cpp">
+      <Filter>Source Files\rbx\exploit\getobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="content.cpp">
+      <Filter>Source Files\rbx\exploit\getobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="auth.cpp">
+      <Filter>Source Files\auth</Filter>
+    </ClCompile>
+    <ClCompile Include="hashing\crc32.cpp">
+      <Filter>Source Files\hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="hashing\keccak.cpp">
+      <Filter>Source Files\hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="hashing\md5.cpp">
+      <Filter>Source Files\hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="hashing\sha1.cpp">
+      <Filter>Source Files\hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="hashing\sha3.cpp">
+      <Filter>Source Files\hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="hashing\sha256.cpp">
+      <Filter>Source Files\hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\backends\imgui_impl_win32.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\extra\TextEditor.cpp">
+      <Filter>Source Files\dep</Filter>
+    </ClCompile>
+    <ClCompile Include="tabs.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="uilua.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="r_opcodes.h">
+      <Filter>Header Files\lbi</Filter>
+    </ClInclude>
+    <ClInclude Include="serializer.h">
+      <Filter>Header Files\lbi</Filter>
+    </ClInclude>
+    <ClInclude Include="addresses.h">
+      <Filter>Header Files\rbx</Filter>
+    </ClInclude>
+    <ClInclude Include="stateg.h">
+      <Filter>Header Files\rbx</Filter>
+    </ClInclude>
+    <ClInclude Include="ckey.h">
+      <Filter>Header Files\lbi\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="encoding.h">
+      <Filter>Header Files\lbi\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="rinstr.h">
+      <Filter>Header Files\lbi\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="execution.h">
+      <Filter>Header Files\lbi\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="customfuncs.h">
+      <Filter>Header Files\rbx\exploit</Filter>
+    </ClInclude>
+    <ClInclude Include="datamodelFuncs.h">
+      <Filter>Header Files\lbi\datamodel</Filter>
+    </ClInclude>
+    <ClInclude Include="interwebs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LUrlParser.h">
+      <Filter>Header Files\dep</Filter>
+    </ClInclude>
+    <ClInclude Include="newcclosure.h">
+      <Filter>Header Files\rbx\exploit\newcclosure</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking.h">
+      <Filter>Header Files\dep</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>Header Files\dep</Filter>
+    </ClInclude>
+    <ClInclude Include="rproto.h">
+      <Filter>Header Files\dep</Filter>
+    </ClInclude>
+    <ClInclude Include="retcheck.h">
+      <Filter>Header Files\bypasses</Filter>
+    </ClInclude>
+    <ClInclude Include="scheduler.h">
+      <Filter>Header Files\help</Filter>
+    </ClInclude>
+    <ClInclude Include="jhook.h">
+      <Filter>Header Files\help</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Header Files\help</Filter>
+    </ClInclude>
+    <ClInclude Include="vmprotectsdk.h">
+      <Filter>Header Files\security</Filter>
+    </ClInclude>
+    <ClInclude Include="getobjects.h">
+      <Filter>Header Files\rbx\exploit\getobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.h">
+      <Filter>Header Files\auth</Filter>
+    </ClInclude>
+    <ClInclude Include="files.h">
+      <Filter>Header Files\help</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="sigscan.h">
+      <Filter>Header Files\help</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\extra\TextEditor.h">
+      <Filter>Header Files\dep</Filter>
+    </ClInclude>
+    <ClInclude Include="saveinstance_addresses.h">
+      <Filter>Header Files\rbx</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
